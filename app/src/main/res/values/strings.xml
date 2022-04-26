@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Guess</string>
+    <string name="tvTitle">Number Guessing Program</string>
+    <string name="btnCalculate">Calculate</string>
+    <string name="btnClear">Clear</string>
+    <string name="etHint">Enter a guess between 1-100</string>
+    <string name="btnRank">Rank</string>
+    <string name="btnTotals">Totals</string>
+    <string name="rankViewDesc">Image depicting rank as described above.</string>
+    <string name="returnToGame">Return to Game</string>
+    <string name="tvTotalWow">Total Number of WOW Ranks: </string>
+    <string name="tvTotalAverage">Total Number of Average Ranks: </string>
+    <string name="tvTotalNovice">Total Number of Novice Ranks: </string>
+</resources>

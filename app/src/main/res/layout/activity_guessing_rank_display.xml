@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondaryVariant"
+    tools:context=".guessingRankDisplay">
+
+    <ImageView
+        android:id="@+id/ivRank"
+        android:layout_width="320sp"
+        android:layout_height="240sp"
+        android:layout_marginTop="52dp"
+        android:contentDescription="@string/rankViewDesc"
+        android:src="@drawable/noviceguess"
+        app:layout_constraintEnd_toEndOf="@+id/tvRankTitle"
+        app:layout_constraintStart_toStartOf="@+id/tvRankTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvRankTitle" />
+
+    <TextView
+        android:id="@+id/tvRankTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReturnFromRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/colorSecondary"
+        android:text="@string/returnToGame"
+        android:textColor="@color/onSecondary"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="@+id/ivRank"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/ivRank"
+        app:layout_constraintTop_toBottomOf="@+id/ivRank" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="importantText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="android:textColorHint">?colorOnPrimary</item>
+    </style>
+
+    <style name="primaryButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="backgroundTint">?colorPrimary</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="secondaryButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_marginTop">52dp</item>
+        <item name="backgroundTint">?colorSecondary</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+</resources>

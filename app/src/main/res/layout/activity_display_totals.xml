@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context=".activityDisplayTotals">
+
+    <Button
+        android:id="@+id/btnReturnFromTotals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="@color/colorPrimaryVariant"
+        android:text="@string/returnToGame"
+        android:textColor="@color/onPrimary"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTotalNovice"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="@+id/tvTotalNovice"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalNovice" />
+
+    <TextView
+        android:id="@+id/tvTotalWow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="@string/tvTotalWow"
+        android:textAlignment="center"
+        android:textColor="@color/onSecondary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTotalAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/tvTotalAverage"
+        android:textAlignment="center"
+        android:textColor="@color/onSecondary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTotalWow"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="@+id/tvTotalWow"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalWow" />
+
+    <TextView
+        android:id="@+id/tvTotalNovice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/tvTotalNovice"
+        android:textAlignment="center"
+        android:textColor="@color/onSecondary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTotalAverage"
+        app:layout_constraintStart_toStartOf="@+id/tvTotalAverage"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalAverage" />
+</androidx.constraintlayout.widget.ConstraintLayout>
